@@ -11,8 +11,7 @@
 body
 {
     font-family: "Ubuntu", sans-serif;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .home
@@ -244,6 +243,11 @@ nav ul a
 
 @media (max-width: 848px) and (max-height: 932px)
 {
+body, html
+{
+    overflow: hidden;
+}
+
     .container
 {
     margin: 0;
