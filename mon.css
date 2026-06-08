@@ -270,13 +270,13 @@ nav .logo
 nav ul a
 {
     color: #fff;
-    padding: 6px;
+    padding: 5px;
     font-size: 14px;
 }
 
 .home .content img
 {
-    width: 270px;
+    width: 250px;
     animation: animation1 2s ease-out;
     margin-bottom: 4rem;
 }
@@ -318,7 +318,7 @@ nav ul a
 {
     display: block;
     margin-top: 40px;
-    width: 250px;
+    width: 225px;
     transform: translateY(-50px);
     animation: animation2 2s ease-out;
     align-items: center;
@@ -332,8 +332,8 @@ nav ul a
   align-items: center;
   justify-content: center;
   margin-top: 460px;
-  position: relative;
-  right: 150px;
+  position: absolute;
+  right: -190px;
 }
 
 .social i
@@ -341,7 +341,7 @@ nav ul a
   display: block;
   color: #fff;
   font-size: 30px;
-  margin: 0 13px;
+  margin: 0 9px;
   animation: animation1 2s ease-out;
   transition: transform 0.3s;
 }
