@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fugaz+One&family=Paytone+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*font-family: "Ubuntu", sans-serif;*/
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.home
+{
+    height: 100vh;
+    background-image: url(mon.jpg);
+    background-size: cover;
+    color: white;
+}
+
+nav .logo
+{
+    width: 100px;
+    margin: 35px;
+}
+
+.container
+{
+    margin: 0 7rem;
+    height: 100%;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+   text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    display: flex;
+    margin: 50px;
+}
+
+nav ul a
+{
+    color: #fff;
+    padding: 20px;
+}
+
+.home .content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+
+.home .content img
+{
+    width: 650px;
+    animation: animation1 2s ease-out;
+}
+
+.home .content .content-text h1
+{
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-weight: 1700;
+}
+
+.home .content .content-text h1 span
+{
+    font-size: 90px;
+}
+
+.home .content .content-text p
+{
+    font-weight: 1400;
+    margin-bottom: 35px;
+    line-height: 1.7;
+    width: 70%;
+}
+
+.btn
+{
+    font-size: 30px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #66cc00;
+}
+
+.btn:hover
+{
+    background-color: transparent;
+    color: #66cc00;
+    border: 1px solid #fff;
+    transition: 0.3s;
+}
+
+.social i
+{ 
+  display: flex;
+  color: #fff;
+  font-size: 30px;
+  margin: 20px 0px;
+  animation: animation1 2s ease-out;
+  transition: transform 0.3s;
+}
+
+.social i:hover
+{
+     color: #66cc00;
+     transform: scale(1.15);
+     transition: 0.3s;
+}
+
+nav ul a:hover
+{
+    color: #66cc00;
+    transition: 0.3s;
+}
+
+.monsters
+{
+    display: block;
+    margin: auto;
+    width: 400px;
+    transform: translateY(-50px);
+    animation: animation2 2s ease-out;
+}
+
+
+@keyframes animation1
+{
+0% 
+{
+    transform: translateX(500px);
+}
+100%
+{
+    transform: traslateX(0);
+}
+}
+
+@keyframes animation2
+{
+    0%
+    {
+        transform: translateY(500px)
+    }
+
+    100%
+    {
+        transform: translateY(-50px);
+    }
+}
+
+@media (max-width: 1350px)
+{
+    nav .logo
+{
+    width: 75px;
+    margin: 35px;
+}
+
+nav ul a
+{
+    color: #fff;
+    padding: 17px;
+}
+
+.home .content img
+{
+    width: 300px;
+    animation: animation1 2s ease-out;
+    margin-bottom: 4rem;
+}
+
+.home .content .content-text h1
+{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 1700;
+}
+
+.home .content .content-text h1 span
+{
+    font-size: 70px;
+}
+
+.home .content .content-text
+{
+    margin-bottom: 50px;
+}
+
+.home .content .content-text p
+{
+    font-weight: 1400;
+    margin-bottom: 45px;
+    line-height: 1.7;
+    width: 70%;
+}
+
+.btn
+{
+    font-size: 30px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #66cc00;
+}
+
+.monsters
+{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 325px;
+    transform: translateY(-50px);
+    animation: animation2 2s ease-out;
+}
+}
+
+
+
+/*Phone*/
+
+@media (max-width: 848px) and (max-height: 932px)
+{
+    .container
+{
+    margin: 0;
+    height: 100%;
+}
+
+nav ul
+{
+    display: flex;
+    margin: 33px 100px 25px 0;
+}
+
+nav .logo
+{
+    width: 62px;
+    height: 62px;
+    margin: 15px 5px;
+}
+
+nav ul a
+{
+    color: #fff;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.home .content img
+{
+    width: 270px;
+    animation: animation1 2s ease-out;
+    margin-bottom: 4rem;
+}
+
+.home .content .content-text h1
+{
+  font-size: 40px;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  font-weight: 1700;
+}
+
+.home .content .content-text h1 span
+{
+    font-size: 70px;
+}
+
+.home .content .content-text
+{
+    margin-bottom: 50px;
+}
+
+.home .content .content-text p
+{
+    display: none;
+}
+
+.btn
+{
+    font-size: 12px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 1rem;
+    color: #66cc00;
+}
+
+.monsters
+{
+    display: block;
+    margin-top: 40px;
+    width: 250px;
+    transform: translateY(-50px);
+    animation: animation2 2s ease-out;
+    align-items: center;
+    justify-content: center;
+}
+
+.social
+{
+  display: flex;
+  transform: translateX(-250px);
+  align-items: center;
+  justify-content: center;
+  margin-top: 460px;
+  position: relative;
+  right: 150px;
+}
+
+.social i
+{ 
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  margin: 0 13px;
+  animation: animation1 2s ease-out;
+  transition: transform 0.3s;
+}
+
+.home .content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
