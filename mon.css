@@ -354,3 +354,51 @@ nav ul a
 }
 }
 
+
+/*phone*/
+@media screen and (max-width: 360px) and (max-height: 800px) 
+{
+  nav .logo
+{
+    width: 60px;
+    height: 60px;
+    margin: 15px 5px;
+}
+
+nav ul a
+{
+    color: #fff;
+    padding: 5px;
+    font-size: 12.8px;
+}
+
+.home .content img
+{
+    width: 228px;
+    animation: animation1 2s ease-out;
+    margin-bottom: 4rem;
+}
+
+.social
+{
+  display: flex;
+  transform: translateX(-250px);
+  align-items: center;
+  justify-content: center;
+  margin-top: 415px;
+  position: absolute;
+  right: -210px;
+}
+
+.monsters
+{
+    display: block;
+    margin-top: 60px;
+    width: 260px;
+    transform: translateY(-50px);
+    animation: animation2 2s ease-out;
+    align-items: center;
+    justify-content: center;
+}
+}
+
