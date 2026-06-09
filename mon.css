@@ -270,13 +270,13 @@ nav .logo
 nav ul a
 {
     color: #fff;
-    padding: 5px;
+    padding: 5.5px;
     font-size: 14px;
 }
 
 .home .content img
 {
-    width: 250px;
+    width: 262px;
     animation: animation1 2s ease-out;
     margin-bottom: 4rem;
 }
@@ -355,7 +355,7 @@ nav ul a
 }
 
 
-/*phone*/
+/*phone2*/
 @media screen and (max-width: 360px) and (max-height: 800px) 
 {
   nav .logo
@@ -399,6 +399,81 @@ nav ul a
     animation: animation2 2s ease-out;
     align-items: center;
     justify-content: center;
+}
+}
+
+/*phone3*/
+@media screen and (max-width: 430px) and (max-height: 932px) 
+{
+  nav .logo
+{
+    width: 75px;
+    height: 75px;
+    margin: 15px 5px;
+}
+
+nav ul a
+{
+    color: #fff;
+    padding: 7px;
+    font-size: 14.1px;
+}
+
+.home .content img
+{
+    width: 260px;
+    animation: animation1 2s ease-out;
+    margin-bottom: 4rem;
+}
+
+.social
+{
+  display: flex;
+  transform: translateX(-250px);
+  align-items: center;
+  justify-content: center;
+  margin-top: 490px;
+  position: absolute;
+  right: -184px;
+}
+
+.monsters
+{
+    display: block;
+    margin-top: 60px;
+    width: 260px;
+    transform: translateY(-50px);
+    animation: animation2 2s ease-out;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .content .content-text h1
+{
+  font-size: 40px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  font-weight: 1700;
+}
+
+.btn
+{
+    font-size: 12px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-left: 2rem;
+    color: #66cc00;
+}
+
+.social i
+{ 
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  margin: 0 11.5px;
+  animation: animation1 2s ease-out;
+  transition: transform 0.3s;
 }
 }
 
